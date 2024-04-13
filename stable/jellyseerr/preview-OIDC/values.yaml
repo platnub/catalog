@@ -1,10 +1,7 @@
 image:
   repository: fallenbagel/jellyseerr
-  tag: 1.7.0@sha256:6dcdb5ba50913a14b2bd7df6388607ce175121f3416679c2746501256ac9f075
+  tag: preview-OIDC@sha256:4d9c3c3bf1b9d962ab955f8bad492f9b1c2b7a0a1605a6c464815a78210876da
   pullPolicy: IfNotPresent
-  options:
-    - 1.7.0@sha256:6dcdb5ba50913a14b2bd7df6388607ce175121f3416679c2746501256ac9f075
-    - preview-OIDC
 service:
   main:
     ports:
