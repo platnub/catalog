@@ -57,16 +57,6 @@ questions:
           schema:
             type: boolean
             default: false
-  - variable: image.tag
-    description: "Select the Docker image tag for Jellyseerr"
-    label: "Image Tag"
-    type: enum
-    required: true
-    default: "latest"
-    group: "Image Settings"
-    options:
-      - "latest"
-      - "preview-OIDC"
 
 
   - variable: workload
